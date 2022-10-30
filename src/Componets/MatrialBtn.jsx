@@ -1,13 +1,14 @@
 import {Delete} from "@material-ui/icons"
 import {Button,ButtonGroup} from "@material-ui/core"
 import { useState } from "react"
-const MatrialBtn = () => {
+const MatrialBtn = (props) => {
     const [color,setColor] = useState("primary")
     const [btnDisable,setBtnDisable] = useState(false)
     function cleckme(){
         // alert("hello")
         // setColor("secondary")
         setBtnDisable(true)
+        console.log(props.data)
  
     }
   return (
