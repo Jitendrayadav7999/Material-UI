@@ -1,19 +1,21 @@
 import './App.css';
-import  MaterialCheckBox  from './Componets/MaterialCheckBox';
-import MatrialBtn from "./Componets/MatrialBtn"
-import MaterialRadioBtn from "./Componets/MaterialRadioBtn"
-import MaterialSlider from "./Componets/MaterialSlider"
-import RangeSliderMaterial from "./Componets/RangeSliderMaterial"
-import SelectMaterial from "./Componets/SelectMaterial"
-import TextFieldMateria from "./Componets/TextFieldMaterial"
-import SwitchMaterial from "./Componets/SwitchMaterial"
-import BoxMaterial from "./Componets/BoxMaterial"
-import ContainerMaterial from "./Componets/ContainerMaterial"
-import GridMaterial from "./Componets/GridMaterial"
+// import MaterialCheckBox from './Componets/MaterialCheckBox';
+// import MatrialBtn from "./Componets/MatrialBtn"
+// import MaterialRadioBtn from "./Componets/MaterialRadioBtn"
+// import MaterialSlider from "./Componets/MaterialSlider"
+// import RangeSliderMaterial from "./Componets/RangeSliderMaterial"
+// import SelectMaterial from "./Componets/SelectMaterial"
+// import TextFieldMateria from "./Componets/TextFieldMaterial"
+// import SwitchMaterial from "./Componets/SwitchMaterial"
+// import BoxMaterial from "./Componets/BoxMaterial"
+// import ContainerMaterial from "./Componets/ContainerMaterial"
+// import GridMaterial from "./Componets/GridMaterial"
+// import TabsMaterial from "./Componets/TabsMaterial"
+import MenuMaterial from "./Componets/MenuMaterial"
 function App() {
   return (
-     <div className='App'>
-      <MatrialBtn  data="jitendra"/>
+    <div className='App'>
+      {/* <MatrialBtn data="jitendra" />
       <br /><br />
       <MaterialCheckBox />
       <br /><br />
@@ -21,20 +23,24 @@ function App() {
       <br /><br />
       <MaterialSlider />
       <br /><br />
-      <RangeSliderMaterial/>
+      <RangeSliderMaterial />
       <br /><br />
       <SelectMaterial />
       <br /><br />
-      <TextFieldMateria/>
+      <TextFieldMateria />
       <br /><br />
-      <SwitchMaterial/>
+      <SwitchMaterial />
       <br /><br />
-      <BoxMaterial/>
+      <BoxMaterial />
       <br /><br />
-      <ContainerMaterial/>
+      <ContainerMaterial />
       <br /><br />
-      <GridMaterial/>
-     </div>
+      <GridMaterial />
+      <br /><br />
+      <TabsMaterial />
+      <br /><br /> */}
+      <MenuMaterial />
+    </div>
   );
 }
 
